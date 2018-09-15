@@ -5,14 +5,16 @@ end
 
 def summon_captain_planet(list)# code an argument here
   # Your code here
-  list.collect {|element| "#{element.to"
+  list.collect {|element| "#{element.titlecase}!"
 end
 
 def long_planeteer_calls(list)# code an argument here
   # Your code here
+  list.any? {|word| word.length > 4}
 end
 
 def find_the_cheese(list)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
+  
 end
