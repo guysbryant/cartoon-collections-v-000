@@ -5,6 +5,7 @@ end
 
 def summon_captain_planet(list)# code an argument here
   # Your code here
+  list.collect {|element| "#{element.to"
 end
 
 def long_planeteer_calls(list)# code an argument here
